@@ -10,3 +10,6 @@ profile.src = 'images/self-portrait-snowbg.jpg'
 #2
 var header = document.querySelector('h1')
 header.innerText = "Jennie Li"
+#3
+var employment = document.querySelector('#employment .info-title')
+employment.innerText = "Something Else"
