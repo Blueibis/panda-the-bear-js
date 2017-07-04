@@ -16,3 +16,6 @@ employment.innerText = "Something Else"
 #4
 var body = document.body
 body.style.backgroundColor = "Chartreuse"
+#5
+var highlights = document.querySelector('.highlight')
+highlights.style.color = "purple"
