@@ -19,3 +19,5 @@ body.style.backgroundColor = "Chartreuse"
 #5
 var highlights = document.querySelector('.highlight')
 highlights.style.color = "purple"
+#6
+header.style.fontFamily = "monospace"
