@@ -27,3 +27,6 @@ circleIcons.forEach(function(icon) {icon.style.backgroundColor = "cadetblue"})
 #8
 var nameField = document.querySelector('input[name="name"]')
 nameField.placeholder = "Identify Youself"
+#9
+var messageField = document.querySelector('textarea[name="message"]')
+messageField.placeholder = State you business"
