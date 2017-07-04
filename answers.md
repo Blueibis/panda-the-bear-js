@@ -1,0 +1,9 @@
+#1
+var profile = document.querySelector('.profile-image')
+=> undefined
+
+profile
+=> <img src=​"images/​self-portrait-grassbg.jpg" alt=​"Self Portrait" title=​"Self Portrait" class=​"profile-image">​
+
+profile.src = 'images/self-portrait-snowbg.jpg'
+=> "images/self-portrait-snowbg.jpg"
