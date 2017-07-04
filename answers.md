@@ -17,10 +17,13 @@ employment.innerText = "Something Else"
 var body = document.body
 body.style.backgroundColor = "Chartreuse"
 #5
-var highlights = document.querySelector('.highlight')
-highlights.style.color = "purple"
+var highlights = document.querySelectorAll('.highlight')
+highlights.forEach(function(item) {item.style.color = "purple"})
 #6
 header.style.fontFamily = "monospace"
 #7
 var circleIcons = document.querySelectorAll('aside a')
 circleIcons.forEach(function(icon) {icon.style.backgroundColor = "cadetblue"})
+#8
+var nameField = document.querySelector('input[name="name"]')
+nameField.placeholder = "Identify Youself"
