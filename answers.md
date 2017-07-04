@@ -40,3 +40,6 @@ var submit = document.querySelector('input[type="submit"]')
 submit.value = "En Garde!"
 #13
 submit.disabled = true
+#14
+var profileInfo = document.querySelectorAll('.bio-info-value')
+profileInfo.forEach(field) {field.innerText = ""})
