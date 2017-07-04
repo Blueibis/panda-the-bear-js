@@ -35,3 +35,6 @@ nameField.value = "Your nemesis"
 #11
 var emailField = document.querySelector('input[name="email"]')
 emailField.value = "koalathebear@gmail.com"
+#12
+var submit = document.querySelector('input[type="submit"]')
+submit.value = "En Garde!"
