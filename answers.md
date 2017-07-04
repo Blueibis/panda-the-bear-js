@@ -30,3 +30,5 @@ nameField.placeholder = "Identify Youself"
 #9
 var messageField = document.querySelector('textarea[name="message"]')
 messageField.placeholder = State you business"
+#10
+nameField.value = "Your nemesis"
