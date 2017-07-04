@@ -13,3 +13,6 @@ header.innerText = "Jennie Li"
 #3
 var employment = document.querySelector('#employment .info-title')
 employment.innerText = "Something Else"
+#4
+var body = document.body
+body.style.backgroundColor = "Chartreuse"
