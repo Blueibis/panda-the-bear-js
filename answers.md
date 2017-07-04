@@ -21,3 +21,6 @@ var highlights = document.querySelector('.highlight')
 highlights.style.color = "purple"
 #6
 header.style.fontFamily = "monospace"
+#7
+var circleIcons = document.querySelectorAll('aside a')
+circleIcons.forEach(function(icon) {icon.style.backgroundColor = "cadetblue"})
