@@ -38,3 +38,5 @@ emailField.value = "koalathebear@gmail.com"
 #12
 var submit = document.querySelector('input[type="submit"]')
 submit.value = "En Garde!"
+#13
+submit.disabled = true
