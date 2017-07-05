@@ -43,3 +43,32 @@ submit.disabled = true
 #14
 var profileInfo = document.querySelectorAll('.bio-info-value')
 profileInfo.forEach(field) {field.innerText = ""})
+#Part 2 - Removing elements from the DOM
+var fake = document.querySelector('#time-travel')
+fake.parentElement.remove()
+#Part 3 - Adding elements to the DOM
+#1
+var portfolio-container = document.querySelector('.portfolio-container')
+var pikachu = document.querySelector('#right-image img')
+portfolio-container.appendChild(pikachu.cloneNode())
+#2
+for (var index = 10; index > 0; index--) {
+    portfolio-container.appendChild(pikachu.cloneNode())
+  }
+#3
+var listItem = document.createElement('li')
+var leftSpan = document.createElement('span')
+var rightSpan = document.createElement('span')
+var lastUpdated = document.createTextNode('Page last updated on')
+var dateText = document.createTextNode(Date())
+var list = document.querySelector('.bio-info')
+
+leftSpan.appendChild(lastUpdated)
+rightSpan.appendChild(dateText)
+listItem.appendChild(leftSpan)
+list.appendChild(listItem)
+listItem.appendChild(rightSpan)
+
+listItem.className = "bio-info-item"
+leftSpan.className = "bio-info-title"
+rightSpan.className = "bio-info-value bio-info-last-updated"
